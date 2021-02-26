@@ -1,26 +1,61 @@
 :root {
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --text-color: #757575;
 }
 
 body {
+  color: var(--title-text-color);
+  background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
 }
 /* Логотип сайта */
 .logo {
+  color: #000;
 }
 
+.logo .web {
+  color: var(--accent-color);
+}
 /* навигация по сайту */
-.nav-list {
+.site-nav {
+  color: var(--title-text-color);
 }
 
-.nav-list .link {
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
 
 /*Номер телефона и Email  */
 .tel {
+  color: var(--text-color);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--text-color);
+}
+.mail:hover,
+.tel:focus {
+  color: var(--accent-color);
 }
 
-.mail {
+/* Банер  */
+.button {
+  color: #fff;
+  background-color: var(--accent-color);
+  display: inline-block;
+  border: 1px solid black;
 }
 /* Особености */
 
@@ -28,10 +63,15 @@ body {
 }
 
 .features .title {
+  color: var(--title-text-color);
+}
+.features p {
+  color: var(--text-color);
 }
 
 /* Заголовки на всей странице */
 .title {
+  color: var(--title-text-color);
 }
 
 /* Наша команда */
@@ -39,8 +79,13 @@ body {
 }
 
 .team .name {
+  color: var(--title-text-color);
+}
+.team p {
+  color: var(--text-color);
 }
 
 /* Футер */
-.secondary-mail {
+.address {
+  color: #fff;
 }
