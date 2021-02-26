@@ -1,0 +1,46 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+}
+/* Логотип сайта */
+.logo {
+}
+
+/* навигация по сайту */
+.nav-list {
+}
+
+.nav-list .link {
+}
+
+/*Номер телефона и Email  */
+.tel {
+}
+
+.mail {
+}
+/* Особености */
+
+.features {
+}
+
+.features .title {
+}
+
+/* Заголовки на всей странице */
+.title {
+}
+
+/* Наша команда */
+.team {
+}
+
+.team .name {
+}
+
+/* Футер */
+.secondary-mail {
+}
