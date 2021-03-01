@@ -1,0 +1,115 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+/* Логотип сайта */
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .web {
+  color: var(--accent-color);
+}
+/* навигация по сайту */
+.site-nav {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*Номер телефона и Email  */
+.tel {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.mail:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+/* Фильтры */
+.filters {
+}
+.filters button {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filters button:hover,
+.filters button:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+/* Портфолио */
+.portfolio {
+  font-family: Roboto;
+}
+.portfolio h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+.footer-section {
+  background-color: #2f303a;
+}
+.footer-section .logo {
+  color: #fff;
+}
+.address {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
