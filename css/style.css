@@ -6,7 +6,7 @@
 
 body {
   color: var(--title-text-color);
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 .list {
@@ -75,7 +75,11 @@ body {
 }
 
 /* Наша команда */
+.team-section {
+  background-color: #f5f4fa;
+}
 .team {
+  background-color: #fff;
 }
 
 .team .name {
@@ -86,6 +90,12 @@ body {
 }
 
 /* Футер */
+.footer-section {
+  background-color: #2f303a;
+}
+.footer-section .logo {
+  color: #fff;
+}
 .address {
   color: #fff;
 }
