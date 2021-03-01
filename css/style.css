@@ -15,6 +15,11 @@ body {
 /* Логотип сайта */
 .logo {
   color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo .web {
@@ -23,10 +28,15 @@ body {
 /* навигация по сайту */
 .site-nav {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -37,6 +47,7 @@ body {
 /*Номер телефона и Email  */
 .tel {
   color: var(--text-color);
+  text-decoration: none;
 }
 .tel:hover,
 .tel:focus {
@@ -44,6 +55,7 @@ body {
 }
 .mail {
   color: var(--text-color);
+  text-decoration: none;
 }
 .mail:hover,
 .tel:focus {
@@ -51,11 +63,28 @@ body {
 }
 
 /* Банер  */
+.hero {
+}
+.hero > h1 {
+  /* color: #fff; */
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
 .button {
   color: #fff;
   background-color: var(--accent-color);
   display: inline-block;
   border: 1px solid black;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 /* Особености */
 
@@ -64,19 +93,45 @@ body {
 
 .features .title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .features p {
   color: var(--text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-/* Заголовки на всей странице */
-.title {
+/*Чем мы занимаемся */
+.about-section {
+}
+.about-section .title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
 .team-section {
   background-color: #f5f4fa;
+}
+.team-section .title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team {
   background-color: #fff;
@@ -84,9 +139,19 @@ body {
 
 .team .name {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .team p {
   color: var(--text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -98,4 +163,10 @@ body {
 }
 .address {
   color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
